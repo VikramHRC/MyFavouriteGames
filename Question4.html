@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <script type="text/javascript">
+    function myfunction(){
+      alert("Thanks !! Your Response has been Recorded")
+    }
+  </script>
+  <style media="screen">
+    .divbox{
+      height:500px;
+      width:600px;
+      margin-left:25px;
+      border:1px solid black;
+      background-color:powderblue;
+      margin-top:25px;
+      padding:20px
+
+    }
+
+  </style>
+  <body>
+    <div class="divbox">
+      <center>
+        <h2>FEEDBACK FORM</h2>
+        </center>
+        <hr>
+      <form>
+      <form class="" action="index.html" method="post">
+      <p><label for="FirstName">First Name</label>
+        <input type="text" id="FirstName" name="" value="">
+        <label for="LastName">Last Name</label>
+        <input type="text" id="LastName" name="" value="">
+      </p>
+      <hr>
+      <p>Department</p>
+      <input type="radio" id="Dept" name="Dept" value="">
+      <label for="Dept">Mathematics</label>
+      <input type="radio" id="Dept" name="Dept" value="">
+      <label for="Dept">Physics</label>
+      <input type="radio" id="Dept" name="Dept" value="">
+      <label for="Dept">Chemistry</label>
+      <input type="radio" id="Dept" name="Dept" value="">
+      <label for="Dept">Computer Science</label>
+      <hr>
+      <p>College</p>
+      <label for="college">Select your college</label>
+      <select class="college" id="college" name="">
+        <option value="selectname">--select college--</option>
+        <option value="Hansraj">Hansraj college</option>
+        <option value="Hindu">Hindu College</option>
+        <option value="Ramjus">Ranjus College</option>
+        <option value="SGTB">SGTB College</option>
+
+      </select>
+      <hr>
+      <p>Your feedback</p>
+      <textarea rows="4" cols="50" name="comment" form="usrform">Start Writing here... </textarea>
+      <hr>
+      <button onclick="myfunction()">Submit</button>
+      <button type="button" name="Reset">Reset</button>
+      </form>
+      </form>
+    </div>
+
+  </body>
+</html>
